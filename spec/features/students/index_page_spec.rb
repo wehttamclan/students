@@ -14,4 +14,16 @@ describe "User sees all students" do
       expect(page).to have_content("#{@student_2.name}")
     end
   end
+  # scenario "a teacher destroys a student" do
+  #   visit students_path
+  #
+  #   expect(current_path).to eq("/students")
+  #
+  #   within "#{@student_1.name}" do
+  #     click_link "Delete"
+  #   end
+  #
+  #   expect(page).to_not have_content("#{@student_1.name}")
+  #   expect(page).to have_content("#{@student_2.name}")
+  # end
 end
