@@ -1,30 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/models/student_spec.rb": [
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/features/students/index_page_spec.rb": [
         1,
         null,
         1,
         1,
         1,
         1,
-        1,
-        1,
-        null,
-        null,
         null,
         1,
         1,
+        null,
         0,
         0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
         null,
         null
       ],
@@ -274,10 +263,38 @@
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/config/routes.rb": [
         1,
         null,
+        1,
         null
       ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/models/student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/student.rb": [
@@ -289,8 +306,20 @@
         1,
         1,
         null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/controllers/students_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1531252909
+    "timestamp": 1531253594
   }
 }

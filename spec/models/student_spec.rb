@@ -10,7 +10,7 @@ describe Student do
     end
 
     context "valid attributes" do
-      xit "is valid with a name" do
+      it "is valid with a name" do
         student = Student.new(name: "Dropbox")
         expect(student).to be_valid
       end
