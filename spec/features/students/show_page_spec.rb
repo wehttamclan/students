@@ -7,7 +7,7 @@ describe "User sees one student" do
   end
   scenario "a user sees a student" do
     visit student_path(@student_1)
-
+save_and_open_page
     expect(current_path).to eq("/students/#{@student_1.id}")
     expect(page).to have_content("Student: #{@student_1.name}")
   end
