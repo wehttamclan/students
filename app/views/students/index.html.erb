@@ -8,7 +8,7 @@
     <div class="students">
       <ul>
         <% @students.each do |student| %>
-        <li><%= student.name %></li>
+        <li><%= link_to student.name, edit_student_path(student) %></li>
         <% end %>
       </ul>
     </div>

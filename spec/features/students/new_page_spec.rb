@@ -11,7 +11,7 @@ describe "User visits students/new page" do
     homer = "Homer Simpson"
     fill_in "student[name]", with: homer
 
-    click_button "Create Student"
+    click_button "Submit"
 
     expect(current_path).to eq(student_path(Student.last))
 
