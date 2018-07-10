@@ -8,7 +8,7 @@ describe "User sees one student" do
   scenario "a user sees a student" do
     visit student_path(@student_1)
 
-    expect(current_path).to eq("/companies/#{@student_1.id}")
-    expect(page).to have_content("Name: #{@student_1.name}")
+    expect(current_path).to eq("/students/#{@student_1.id}")
+    expect(page).to have_content("Student: #{@student_1.name}")
   end
 end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/features/students/index_page_spec.rb": [
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/features/students/show_page_spec.rb": [
         1,
         null,
         1,
@@ -12,8 +12,8 @@
         1,
         1,
         null,
-        0,
-        0,
+        1,
+        1,
         null,
         null
       ],
@@ -320,6 +320,6 @@
         null
       ]
     },
-    "timestamp": 1531253594
+    "timestamp": 1531254295
   }
 }
