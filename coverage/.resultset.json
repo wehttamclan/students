@@ -302,13 +302,13 @@
         1,
         null,
         1,
-        1,
-        1,
-        0,
         null,
         null,
-        0,
-        0,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null
       ],
@@ -391,7 +391,7 @@
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/controllers/students_controller.rb": [
         1,
         1,
-        4,
+        5,
         null,
         null,
         1,
@@ -418,6 +418,10 @@
         3,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -432,6 +436,6 @@
         null
       ]
     },
-    "timestamp": 1531259294
+    "timestamp": 1531259818
   }
 }
