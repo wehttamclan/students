@@ -368,6 +368,27 @@
         null,
         null
       ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/models/address_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/address.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/models/student_spec.rb": [
         1,
         null,
@@ -389,6 +410,9 @@
         null,
         null,
         1,
+        1,
+        null,
+        null,
         null,
         null,
         1,
@@ -396,11 +420,6 @@
         null
       ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/student.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/application_record.rb": [
         1,
         1,
         null
@@ -453,6 +472,6 @@
         null
       ]
     },
-    "timestamp": 1531368591
+    "timestamp": 1531369207
   }
 }

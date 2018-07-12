@@ -18,6 +18,9 @@ describe Student do
   end
 
   describe "relationships" do
+    it "text" do
+
+    end
   end
 
   describe 'class methods' do
