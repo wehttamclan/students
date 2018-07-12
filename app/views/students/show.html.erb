@@ -2,6 +2,14 @@
 <html>
   <body>
     <h2>Student: <%= @student.name %></h2>
-
+    <% @student.addresses.each do |address| %>
+      <ul>
+        <li><%= address.description %></li>
+        <li><%= address.street %></li>
+        <li><%= address.city %></li>
+        <li><%= address.state %></li>
+        <li><%= address.zip %></li>
+      </ul>
+    <% end %>
   </body>
 </html>

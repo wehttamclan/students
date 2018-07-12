@@ -24,7 +24,7 @@ class StudentsController < ApplicationController
   end
 
   def show
-    @student = Student.find(params[:id])
+    @student = Student.includes(:addresses).find(params[:id])
   end
 
   def destroy
