@@ -10,17 +10,12 @@ describe Student do
     end
 
     context "valid attributes" do
-      it "is valid with a name" do
-        student = Student.new(name: "Dropbox")
-        expect(student).to be_valid
-      end
+      it { should validate_presence_of(:name) }
     end
   end
 
   describe "relationships" do
-    it "text" do
-
-    end
+    it { should have_many(:addresses) }
   end
 
   describe 'class methods' do
