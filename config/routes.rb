@@ -4,4 +4,5 @@ Rails.application.routes.draw do
     resources :addresses
   end
   resources :addresses
+  resources :courses
 end

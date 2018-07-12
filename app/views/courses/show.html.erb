@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Course: <%= @course.name %></h2>
+    <% @course.students.each do |student| %>
+    <h3>Student <%= student.id %>: </h3>
+      <ul>
+        <li><%= student.name %></li>
+      </ul>
+    <% end %>
+  </body>
+</html>

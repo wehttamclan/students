@@ -280,10 +280,34 @@
         1,
         null,
         1,
+        1,
         null
       ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/features/courses/show_page_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/features/students/edit_page_spec.rb": [
@@ -576,8 +600,29 @@
         1,
         1,
         null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/controllers/courses_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null
       ]
     },
-    "timestamp": 1531416305
+    "timestamp": 1531417130
   }
 }
