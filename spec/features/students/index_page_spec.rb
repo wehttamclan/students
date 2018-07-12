@@ -26,4 +26,21 @@ describe "User sees all students" do
     expect(page).to_not have_content("#{@student_1.name}")
     expect(page).to have_content("#{@student_2.name}")
   end
+  scenario "a user navigates to the index page from any other page" do
+    visit edit_student_path(@student_1)
+    click_link "See All Students"
+    expect(current_path).to eq(students_path)
+
+    visit student_path(@student_1)
+    click_link "See All Students"
+    expect(current_path).to eq(students_path)
+
+    visit new_student_path
+    click_link "See All Students"
+    expect(current_path).to eq(students_path)
+
+    visit students_path
+    click_link "See All Students"
+    expect(current_path).to eq(students_path)
+  end
 end
