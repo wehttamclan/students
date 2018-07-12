@@ -12,5 +12,11 @@
         <li><%= address.zip %></li>
       </ul>
     <% end %>
+    <% @student.courses.each do |course| %>
+    <h3>Course <%= course.id %>: </h3>
+      <ul>
+        <li><%= course.name %></li>
+      </ul>
+    <% end %>
   </body>
 </html>

@@ -7,6 +7,9 @@ describe "User visits student show page" do
     @address_1 = @student_1.addresses.create(description: "home address", street: '123 big street', city: 'austin', state: 'CO', zip: 12332)
     @address_2 = @student_1.addresses.create(description: "away address", street: '234 little street', city: 'denver', state: 'NY', zip: 12222)
     @address_3 = @student_2.addresses.create(description: 'winter address', street: '235 blvd', city: 'new york', state: 'MB', zip: 22222)
+    @course_1 = @student_1.courses.create(name: 'big course')
+    @course_2 = @student_1.courses.create(name: 'little course')
+    @course_3 = @student_2.courses.create(name: 'weird course')
   end
   scenario "sees student's name" do
     visit student_path(@student_1)
@@ -29,5 +32,19 @@ describe "User visits student show page" do
     expect(page).to have_content(@address_2.city)
     expect(page).to have_content(@address_2.state)
     expect(page).to have_content(@address_2.zip)
+  end
+
+  scenario "sees list of courses" do
+    visit student_path(@student_1)
+
+    expect(current_path).to eq(student_path(@student_1))
+
+    expect(page).to have_content(@course_1.name)
+    expect(page).to have_content(@course_2.name)
+    visit student_path(@student_2)
+
+    expect(current_path).to eq(student_path(@student_2))
+
+    expect(page).to have_content(@course_3.name)
   end
 end

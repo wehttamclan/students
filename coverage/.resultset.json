@@ -389,11 +389,14 @@
         null,
         1,
         1,
-        2,
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
         null,
         1,
         1,
@@ -415,6 +418,20 @@
         1,
         1,
         1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
         1,
         null,
         null
@@ -442,6 +459,22 @@
         null
       ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/spec/models/student_course_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/student_course.rb": [
+        1,
         1,
         1,
         null
@@ -522,7 +555,7 @@
         null,
         null,
         1,
-        6,
+        8,
         null,
         null,
         1,
@@ -537,12 +570,6 @@
         null,
         null
       ],
-      "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/student_course.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
       "/Users/JiveTurkey/turing/2module/timed_challenges/students/app/models/course.rb": [
         1,
         1,
@@ -551,6 +578,6 @@
         null
       ]
     },
-    "timestamp": 1531414982
+    "timestamp": 1531416305
   }
 }
