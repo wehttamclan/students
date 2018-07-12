@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Student do
+describe Student, type: :model do
   describe "validations" do
     context "valid attributes" do
       it { should validate_presence_of(:name) }
@@ -9,8 +9,7 @@ describe Student do
 
   describe "relationships" do
     it { should have_many(:addresses) }
+    it { should have_many(:courses).through(:student_courses) }
   end
 
-  describe 'class methods' do
-  end
 end
